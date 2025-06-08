@@ -1,0 +1,19 @@
+[font]
+normal = { family = "monospace", style = "Regular" }
+size = 8.0
+
+
+[keyboard]
+bindings = [
+  # Copiar y pegar
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+
+  # Zoom in y out
+  { key = "Plus", mods = "Control", action = "IncreaseFontSize" },
+  { key = "NumpadAdd", mods = "Control", action = "IncreaseFontSize" },
+  { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+  { key = "NumpadSubtract", mods = "Control", action = "DecreaseFontSize" },
+  { key = "Key0", mods = "Control", action = "ResetFontSize" }
+]
+
