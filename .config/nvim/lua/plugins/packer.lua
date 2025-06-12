@@ -68,11 +68,11 @@ use 'nvim-tree/nvim-tree.lua'
   }
 
 --  use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-nvim-lsp'
+--  use 'hrsh7th/cmp-nvim-lsp'
 
-  use 'L3MON4D3/luaSnip'
+--  use 'L3MON4D3/luaSnip'
 
-  use 'saadparwaiz1/cmp_luasnip'
+--  use 'saadparwaiz1/cmp_luasnip'
   use "rafamadriz/friendly-snippets"
   use "github/copilot.vim"
  -- help for git
@@ -80,17 +80,17 @@ use 'nvim-tree/nvim-tree.lua'
   use 'norcalli/nvim-colorizer.lua'
  -- use 'xuhdev/vim-latex-live-preview'
 
-  use{
-        'hrsh7th/nvim-cmp',
-        requires =
-        {
-            'hrsh7th/vim-vsnip',
-            'hrsh7th/cmp-buffer',
-            'hrsh7th/cmp-nvim-lua',
-            'saadparwaiz1/cmp_luasnip',
-            'hrsh7th/cmp-path',
-        }
-    }
+ -- use{
+ --       'hrsh7th/nvim-cmp',
+  --      requires =
+  --      {
+  --          'hrsh7th/vim-vsnip',
+  --          'hrsh7th/cmp-buffer',
+   --         'hrsh7th/cmp-nvim-lua',
+   --         'saadparwaiz1/cmp_luasnip',
+   --         'hrsh7th/cmp-path',
+    --    }
+   -- }
 
 -- install without yarn or npm
 --  use({
