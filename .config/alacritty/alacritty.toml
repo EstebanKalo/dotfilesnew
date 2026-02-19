@@ -1,6 +1,6 @@
 [font]
-normal = { family = "monospace", style = "Regular" }
-size = 8.0
+normal = { family = "DejaVu Sans Mono", style = "Regular" }
+size = 7.0
 
 
 [keyboard]

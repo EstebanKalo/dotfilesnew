@@ -12,6 +12,7 @@ require('plugins/lsp_config')
 require('plugins/colorizer')
 require('plugins/vimtex')
 --require('plugins/nvim-cmp')
+vim.opt.clipboard = "unnamedplus"
 
 require("mason").setup(DEFAULT_SETTINGS)
 require("mason-lspconfig").setup {

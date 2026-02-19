@@ -65,9 +65,8 @@ static const char unknown_str[] = "n/a";
  * wifi_perc           WiFi signal in percent          interface name (wlan0)
  */
 static const struct arg args[] = {
-    { battery_perc, " 󰁹 %s%% | ",  "BAT0" },
-    { run_command, " 󰋋 %s | ", "/home/caloway/Desktop/scripts/g935-battery.sh " },
-    { ipv4,         "IP: %s | ",  "wlo1" }, // Cambiar wlo1 por tu interfaz de red
+    { run_command, " %s | ",  "/home/esteban/Escritorio/scripts/battery-smart.sh" },
+    { run_command, "IP: %s | ", "/home/esteban/Escritorio/scripts/vpn-ip.sh"  }, 
     { disk_free,    "Disk: %sG | ", "/" },
     { datetime, "%s", "%a %d-%m %R " },
 };

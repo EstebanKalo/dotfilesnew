@@ -12,7 +12,7 @@ static const char col_gray1[] = "#282a36"; // fondo
 static const char col_gray2[] = "#44475a"; // bordes
 static const char col_gray3[] = "#f8f8f2"; // texto
 static const char col_gray4[] = "#ffffff"; // texto seleccionado
-static const char col_cyan[]  = "#bd93f9"; // foco (lila)
+static const char col_cyan[]  = "#4C006B"; // foco (rojo tinto)
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -95,9 +95,11 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY,                       XK_q,      killclient,     {0} },
 	{ MODKEY|ShiftMask,             XK_Escape, quit,           {0} },
-    { MODKEY|ShiftMask,             XK_x,      spawn,          SHCMD("i3lock-fancy") },
-    { MODKEY|ShiftMask,             XK_s,      spawn,          SHCMD("flameshot gui") },
-    { MODKEY|ShiftMask,             XK_b,      spawn,          SHCMD("qutebrowser") },
+    { MODKEY|ShiftMask,             XK_x,      spawn,          SHCMD("i3lock-fancy")},
+    { MODKEY|ShiftMask,             XK_b,      spawn,          SHCMD("qutebrowser")},
+    { MODKEY|ShiftMask,             XK_s,      spawn,          SHCMD("flameshot gui")},
+    { MODKEY|ShiftMask,             XK_g,      spawn,          SHCMD("google-chrome-stable")},
+    { MODKEY|ShiftMask,             XK_f,      spawn,          SHCMD("firefox")},
 	// Brillo
 	{ 0, XF86XK_MonBrightnessUp,   spawn, SHCMD("brightnessctl set +10%") },
 	{ 0, XF86XK_MonBrightnessDown, spawn, SHCMD("brightnessctl set 10%-") },

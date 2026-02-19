@@ -1,0 +1,5 @@
+[+] BloodHound is ready to go!
+[+] You can log in as `admin` with this password: *s*...
+[+] You can get your admin password by running: bloodhound-cli config get default_password
+[+] You can access the BloodHound UI at: http://127.0.0.1:8080/ui/login
+
