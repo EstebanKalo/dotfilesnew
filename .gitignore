@@ -1,1 +1,168 @@
 Tools/SecLists
+### ============================================
+### CRITICO - Credenciales / secrets / claves
+### NUNCA sacar estas lineas sin revisar a mano
+### ============================================
+.config/Bitwarden/
+.config/keepassxc/
+.config/KeePass/
+.config/pwsafe/
+.age/
+.config/age/
+.config/FortiClient/
+.config/wireguard/
+.config/vpnc/
+.config/ipsec.d/
+.config/remmina/
+.config/filezilla/
+.config/FileZilla/
+.filezilla/
+.config/putty/
+.putty/
+.config/windterm/
+.config/freerdp/
+.local/share/freerdp/
+.smb/
+.samba/
+.config/ldap/
+.docker/config.json
+.docker/
+
+### ============================================
+### SENSIBLE - herramientas de pentest / OT
+### pueden contener targets, loot, hashes, IPs internas
+### ============================================
+.msf4/
+.local/share/metasploit-framework/
+.impacket/
+.netexec/
+.nxc/
+.cme/
+.john/
+.local/share/john/
+.cutter/
+.config/cutter/
+.local/share/radare2/
+.radare2/
+.gobuster/
+.ffuf/
+.config/ffuf/
+.local/share/bloodhound/
+.config/bloodhound/
+.local/share/wireshark/
+.config/wireshark/
+*.pcap
+*.pcapng
+.nmap/
+.zmap/
+.arp-scan/
+glpi-agent/
+.ocsinventory/
+lldpd.d/
+snmp/
+
+### ============================================
+### SESIONES / CACHE de apps (datos personales, no config)
+### ============================================
+.config/discord/
+.config/discord.bak/
+.config/teams-for-linux/
+.config/Microsoft/
+.config/Microsoft Teams - Preview/
+.config/google-chrome/
+.config/BraveSoftware/
+.mozilla/
+.thunderbird/
+.config/qutebrowser/
+.config/zoom*/
+.zoomus.conf
+.config/obsidian/
+.config/thedude/
+.config/onedrive/
+
+### ============================================
+### CACHE / ESTADO de sistema, no config real
+### ============================================
+.config/dconf/
+.config/glib-2.0/
+.config/gtk-3.0/
+.config/gtk-4.0/
+.config/Electron/
+.mono/
+.config/systemd/
+.config/mimeapps.list
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.config/menus/
+.cache/
+.local/share/Trash/
+.bash_history
+.zsh_history
+.python_history
+.node_repl_history
+.lesshst
+.wget-hsts
+
+### ============================================
+### OTRAS apps varias sin config relevante
+### ============================================
+.config/autostart/
+.config/balenaEtcher/
+.config/chess-tui/
+.config/deepin/
+.config/fontforge/
+.config/github-copilot/
+.config/go/
+.config/gpicview/
+.config/granatierrc
+.config/helpbuilder/
+.config/kamosorc/
+.config/kronometerrc
+.config/libreoffice/
+.config/Meltytech/
+.config/mgba/
+.config/moserial.conf
+.config/obs-studio/
+.config/pavucontrol.ini
+.config/QtProject.conf
+.config/SpeedCrunch.ini
+.config/vlc/
+.config/xfce4/
+.config/xfe/
+.config/yay/
+.config/qemu/
+.local/share/libvirt/
+.config/libvirt/
+
+### ============================================
+### Tools/ - artefactos de build y contenido sensible
+### mantener solo codigo propio: dwm, dmenu, slstatus, yay
+### ============================================
+Tools/go/
+Tools/ntpdate/
+Tools/ffuf/
+Tools/bloodhound/
+Tools/packettracer/logs/
+
+### ============================================
+### Backups / temporales / logs
+### ============================================
+*.bak
+*~
+*.log
+*.swp
+node_modules/
+__pycache__/
+*.pyc
+
+### ============================================
+### SSH y GPG - se manejan aparte, NUNCA en este repo
+### ============================================
+.ssh/
+.gnupg/
+
+# nchat - sesion de WhatsApp, NUNCA versionar
+.config/nchat/
+
+.config/copyq/*.lock
+.config/copyq/copyq_tab_*.dat

@@ -1,5 +1,6 @@
 [font]
-normal = { family = "DejaVu Sans Mono", style = "Regular" }
+# normal = { family = "DejaVu Sans Mono", style = "Regular" }
+normal = { family = "MesloLGS Nerd Font", style = "Regular" }
 size = 7.0
 
 
@@ -14,6 +15,35 @@ bindings = [
   { key = "NumpadAdd", mods = "Control", action = "IncreaseFontSize" },
   { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
   { key = "NumpadSubtract", mods = "Control", action = "DecreaseFontSize" },
-  { key = "Key0", mods = "Control", action = "ResetFontSize" }
+  { key = "Key0", mods = "Control", action = "ResetFontSize" },
+
+  # Shift+Enter para newline (útil en Claude Code)
+  { key = "Return", mods = "Shift", chars = "\u001B\r" }
 ]
 
+
+#[font]
+# normal = { family = "DejaVu Sans Mono", style = "Regular" }
+#normal = { family = "MesloLGS Nerd Font", style = "Regular" }
+#size = 7.0
+
+
+#[keyboard]
+#bindings = [
+  # Copiar y pegar
+ # { key = "C", mods = "Control|Shift", action = "Copy" },
+ # { key = "V", mods = "Control|Shift", action = "Paste" },
+
+  # Zoom in y out
+ # { key = "Plus", mods = "Control", action = "IncreaseFontSize" },
+ # { key = "NumpadAdd", mods = "Control", action = "IncreaseFontSize" },
+ # { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+ # { key = "NumpadSubtract", mods = "Control", action = "DecreaseFontSize" },
+ # { key = "Key0", mods = "Control", action = "ResetFontSize" }
+#]
+
+
+#[[keyboard.bindings]]
+#key = "Return"
+#mods = "Shift"
+#chars = "\u001B\r"

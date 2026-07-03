@@ -77,7 +77,7 @@ use 'nvim-tree/nvim-tree.lua'
   use "github/copilot.vim"
  -- help for git
   use 'kdheepak/lazygit.nvim'
-  use 'norcalli/nvim-colorizer.lua'
+  use 'NvChad/nvim-colorizer.lua'
  -- use 'xuhdev/vim-latex-live-preview'
 
  -- use{
